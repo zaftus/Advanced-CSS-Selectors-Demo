@@ -1,0 +1,20 @@
+/* Adjacent sibling combinator */
+h1 + p {
+    font-style: italic;
+}
+
+/* General sibling combinator */
+.card ~ .card {
+    margin-top: 1rem;
+}
+
+/* Child combinator */
+section > .card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Descendant combinator */
+section.cards .card p {
+    color: #444;
+}
