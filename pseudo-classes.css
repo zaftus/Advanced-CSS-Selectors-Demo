@@ -1,0 +1,23 @@
+/* Target hover state on links */
+nav a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+/* Target first child of a section */
+section.cards .card:first-child {
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+}
+
+/* Target last child of a section */
+section.cards .card:last-child {
+    border: 2px dashed #666;
+    background-color: #fafafa;
+}
+
+/* Target nth-child */
+section.cards .card:nth-child(2) {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
