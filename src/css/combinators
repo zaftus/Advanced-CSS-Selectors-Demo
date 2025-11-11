@@ -1,0 +1,15 @@
+h1 + p {
+    font-style: italic;
+}
+
+.card ~ .card {
+    margin-top: 1rem;
+}
+
+section > .card {
+    padding: 1rem;
+}
+
+section.cards .card p {
+    color: #444;
+}
