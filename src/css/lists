@@ -1,0 +1,8 @@
+ul, ol {
+    margin-left: 2rem;
+}
+
+li::before {
+    content: "• ";
+    color: #007bff;
+}
