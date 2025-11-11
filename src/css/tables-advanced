@@ -1,0 +1,11 @@
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+td:last-child {
+    text-align: right;
+}
