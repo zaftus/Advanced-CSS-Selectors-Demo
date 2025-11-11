@@ -1,0 +1,14 @@
+h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+    margin: 0.5rem 0;
+}
+
+p::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
