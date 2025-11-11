@@ -1,0 +1,11 @@
+section.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    section.cards {
+        grid-template-columns: 1fr;
+    }
+}
