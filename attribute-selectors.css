@@ -1,0 +1,24 @@
+/* Target input fields with type="text" */
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+/* Target buttons with specific ID */
+button[id="learnMore"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+/* Target all links with href starting with "https" */
+a[href^="https"] {
+    color: green;
+}
+
+/* Target links with href ending with ".html" */
+a[href$=".html"] {
+    font-weight: bold;
+}
